@@ -1,3 +1,11 @@
+:root {
+    --my-color-yellow: #E2B240;
+    --my-color-lightBrown: #4B3A32;
+    --my-color-darkBrown: #241A17;
+    --my-color-gray: #DDDAD3;
+    --my-color-darkYellow: #BC8B1E;
+}
+
 .design {
     width: 100%;
     position: absolute;
