@@ -13,3 +13,26 @@
     opacity: 0.5;
     z-index: -1;
 }
+
+
+/* ------ 全域 ------ */
+
+img {
+    width: 100%;
+}
+
+body {
+    background-image: url("./image/bg-body.png")
+}
+
+.center {
+    justify-content: center;
+}
+
+[class^="col"]>div {
+    padding: 0 20px;
+}
+
+.own-container {
+    padding: 0;
+}
