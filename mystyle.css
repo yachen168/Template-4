@@ -75,3 +75,44 @@ header a {
 header .collapse {
     margin-top: 10px;
 }
+
+
+/* -------------section banner------------- */
+
+.chair,
+.article-content {
+    padding: 0;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chair {
+    background-image: url("./image/chair.jpg");
+}
+
+article .article-content {
+    padding: 60px 60px 0;
+    background-size: cover;
+    color: var(--my-color-darkBrown);
+    background-image: url("./image/bg-pattern.jpg");
+}
+
+.article-content h2 {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0 30px;
+    line-height: 1.4;
+}
+
+.article-content p {
+    display: -webkit-box;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.4;
+}
