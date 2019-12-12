@@ -33,11 +33,6 @@ body {
     justify-content: center;
 }
 
-[class^="col"]>div {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 .own-container {
     padding: 0;
 }
@@ -115,4 +110,32 @@ article .article-content {
     font-size: 16px;
     text-align: justify;
     line-height: 1.4;
+}
+
+
+/* ------seciton.demo------ */
+
+.demo-card {
+    background-color: var(--my-color-lightBrown);
+}
+
+.demo-card-body {
+    padding: 20px;
+    min-height: 120px;
+    background: url(./image/ds_border_bg_a.png) repeat-x top;
+    background-size: 5px;
+}
+
+.demo-card-body h3 {
+    color: var(--my-color-yellow);
+    font-size: 16px;
+}
+
+.demo-card-body p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.demo-card-body p:last-of-type {
+    margin-bottom: 0;
 }
