@@ -1,13 +1,14 @@
 :root {
-    --my-color-yellow: #E2B240;
-    --my-color-lightBrown: #4B3A32;
-    --my-color-darkBrown: #241A17;
-    --my-color-gray: #DDDAD3;
-    --my-color-darkYellow: #BC8B1E;
+    --own-color-yellow: #E2B240;
+    --own-color-lightBrown: #4B3A32;
+    --own-color-midBrown: #7B7B7B;
+    --own-color-darkBrown: #241A17;
+    --own-color-darkYellow: #BC8B1E;
+    --own-color-gray: #DDDAD3;
 }
 
 * {
-    outline: 1px solid;
+    /* outline: 1px solid; */
 }
 
 .design {
@@ -25,8 +26,19 @@ img {
     width: 100%;
 }
 
+html,
 body {
-    background-image: url("./image/bg-body.png")
+    margin: 0;
+}
+
+body {
+    background-image: url("./image/bg-body.png");
+    font-family: 'Oswald', sans-serif;
+}
+
+p,
+span {
+    font-family: 'Roboto', sans-serif;
 }
 
 .center {
@@ -55,7 +67,7 @@ body {
 header {
     border-bottom: 1px solid #fff;
     padding: 35px 0;
-    background-color: var(--my-color-darkBrown);
+    background-color: var(--own-color-darkBrown);
 }
 
 .nav {
@@ -74,33 +86,33 @@ header .collapse {
 
 /* -------------section banner------------- */
 
-.chair,
-.article-content {
+.banner-img,
+.banner-content {
     padding: 0;
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.chair {
+.banner-img {
     background-image: url("./image/chair.jpg");
 }
 
-article .article-content {
+.banner-content {
     padding: 60px 60px 0;
     background-size: cover;
-    color: var(--my-color-darkBrown);
+    color: var(--own-color-darkBrown);
     background-image: url("./image/bg-pattern.jpg");
 }
 
-.article-content h2 {
+.banner-content h2 {
     text-align: center;
     font-size: 32px;
     margin: 20px 0 30px;
     line-height: 1.4;
 }
 
-.article-content p {
+.banner-content p {
     display: -webkit-box;
     margin-bottom: 0;
     overflow: hidden;
@@ -113,29 +125,29 @@ article .article-content {
 }
 
 
-/* ------seciton.demo------ */
+/* ------seciton.gallery------ */
 
-.demo-card {
-    background-color: var(--my-color-lightBrown);
+.gallery-card {
+    background-color: var(--own-color-lightBrown);
 }
 
-.demo-card-body {
-    padding: 20px;
-    min-height: 120px;
+.gallery-card-body {
+    padding: 25px;
+    min-height: 130px;
     background: url(./image/ds_border_bg_a.png) repeat-x top;
     background-size: 5px;
 }
 
-.demo-card-body h3 {
-    color: var(--my-color-yellow);
+.gallery-title {
+    color: var(--own-color-yellow);
     font-size: 16px;
 }
 
-.demo-card-body p {
+.gallery-card-body p {
     color: #fff;
     font-size: 13px;
 }
 
-.demo-card-body p:last-of-type {
+.gallery-card-body p:last-of-type {
     margin-bottom: 0;
 }
