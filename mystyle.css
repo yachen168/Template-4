@@ -227,3 +227,47 @@ h4 {
     height: 100%;
     width: 50%;
 }
+
+
+/* ------footer------ */
+
+footer {
+    background-color: var(--own-color-yellow);
+    border-top: 1px solid #fff;
+    color: var(--own-color-lightBrown);
+}
+
+.contact {
+    padding: 20px 0;
+}
+
+footer h4 {
+    font-size: 18px;
+    color: var(--own-color-lightBrown);
+}
+
+.visit {
+    padding-right: 25px;
+    background: url(./image/ds_border_bg_c.png) repeat-y right;
+    background-size: 7px;
+    font-size: 16px;
+}
+
+.visit-card-img {
+    margin-bottom: 20px;
+}
+
+.visit-card-body p {
+    margin-bottom: 25px;
+}
+
+.visit-card-body h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.visit-card-body a {
+    text-decoration: underline;
+    color: var(--own-color-lightBrown);
+}
