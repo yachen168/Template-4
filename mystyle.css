@@ -373,6 +373,7 @@ h4 {
 footer {
     background-color: var(--own-color-yellow);
     color: var(--own-color-midYellow);
+    text-align: center;
 }
 
 footer .container {
@@ -421,6 +422,9 @@ footer .container {
     footer .container {
         background: url(./image/ds_border_bg_d.png) repeat-x top;
         background-size: 5px;
+    }
+    .copyright {
+        text-align-last: left;
     }
     .footer-link {
         text-align: right;
