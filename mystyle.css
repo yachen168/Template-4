@@ -349,6 +349,25 @@ footer h4 {
     font-size: 15px;
 }
 
+
+/* -----social----- */
+
+.social {
+    font-size: 0;
+}
+
+.social a {
+    display: inline-block;
+}
+
+.social a {
+    width: 35px;
+}
+
+.social a+a {
+    margin-left: 25px;
+}
+
 @media screen and (min-width: 768px) {
     .contact {
         padding: 20px 0;
@@ -370,7 +389,8 @@ footer h4 {
     .recent-blog {
         padding: 0 25px;
     }
-    .join {
+    .join,
+    .social {
         padding-left: 35px;
     }
     .join form {
