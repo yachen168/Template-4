@@ -311,3 +311,23 @@ footer h4 {
 .recent-content p {
     font-size: 14px;
 }
+
+@media screen and (min-width: 768px) {
+    .contact {
+        padding: 20px 0;
+    }
+    .footer-item {
+        padding-bottom: 0;
+    }
+    .footer-item:first-of-type {
+        background: url(./image/ds_border_bg_c.png) repeat-y right;
+        background-size: 7px;
+    }
+    .footer-item:nth-of-type(3) {
+        background: url(./image/ds_border_bg_c.png) repeat-y left;
+        background-size: 7px;
+    }
+    .visit {
+        padding-right: 25px;
+    }
+}
