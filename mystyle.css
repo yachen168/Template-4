@@ -313,6 +313,42 @@ footer h4 {
     font-size: 14px;
 }
 
+.join form {
+    padding-bottom: 20px;
+    background: url(./image/ds_border_bg_d.png) repeat-x bottom;
+    background-size: 5px;
+}
+
+.join input {
+    width: 100%;
+    border: 4px solid var(--own-color-midYellow);
+    padding: 0 5px;
+    margin-bottom: 5px;
+}
+
+.join input::placeholder {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--own-color-lightBrown);
+}
+
+.join button {
+    width: 90px;
+    height: 35px;
+    text-align: center;
+    background: url(./image/buttons.png) no-repeat;
+    background-position: -10px -35px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.join a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
 @media screen and (min-width: 768px) {
     .contact {
         padding: 20px 0;
@@ -333,5 +369,8 @@ footer h4 {
     }
     .recent-blog {
         padding: 0 25px;
+    }
+    .join {
+        padding-left: 35px;
     }
 }
