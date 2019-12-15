@@ -153,6 +153,7 @@ header .collapse {
 
 .blog {
     background-color: #fff;
+    padding: 5px 0 10px;
 }
 
 h4 {
@@ -162,17 +163,20 @@ h4 {
 }
 
 .title {
-    padding: 0 25px;
+    padding: 0 20px;
     margin: 0;
 }
 
-.text {
-    padding: 30px 25px;
+.info {
     background: url(./image/ds_border_bg_b.png) repeat-y right;
     background-size: 8px;
 }
 
-.text h3 {
+.info-text {
+    padding: 30px 25px;
+}
+
+.info-text h3 {
     margin-bottom: 40px;
     font-size: 30px;
     word-spacing: 10px;
@@ -237,6 +241,12 @@ footer {
     color: var(--own-color-lightBrown);
 }
 
+.footer-item:nth-of-type(3) {
+    padding-left: 25px;
+    background: url(./image/ds_border_bg_c.png) repeat-y left;
+    background-size: 7px;
+}
+
 .contact {
     padding: 20px 0;
 }
@@ -271,3 +281,42 @@ footer h4 {
     text-decoration: underline;
     color: var(--own-color-lightBrown);
 }
+
+.recent-item {
+    font-size: 0;
+}
+
+.rect,
+.recent-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rect {
+    background-color: var(--own-color-lightBrown);
+    color: #fff;
+    width: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.recent-blog {
+    padding: 0 25px;
+}
+
+.recent-content {
+    width: 80%;
+    padding-left: 10px;
+}
+
+.recent-content h2 {
+    font-size: 16px;
+}
+
+.recent-content p {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 992px) {}
