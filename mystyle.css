@@ -241,25 +241,21 @@ footer {
     color: var(--own-color-lightBrown);
 }
 
-.footer-item:nth-of-type(3) {
-    padding-left: 25px;
-    background: url(./image/ds_border_bg_c.png) repeat-y left;
-    background-size: 7px;
+.footer-item {
+    padding-bottom: 120px;
 }
 
 .contact {
-    padding: 20px 0;
+    padding: 20px 25px;
 }
 
 footer h4 {
     font-size: 18px;
     color: var(--own-color-lightBrown);
+    margin-bottom: 15px;
 }
 
 .visit {
-    padding-right: 25px;
-    background: url(./image/ds_border_bg_c.png) repeat-y right;
-    background-size: 7px;
     font-size: 16px;
 }
 
@@ -284,11 +280,11 @@ footer h4 {
 
 .recent-item {
     font-size: 0;
+    padding-bottom: 20px;
 }
 
 .rect,
 .recent-content {
-    display: inline-block;
     vertical-align: top;
 }
 
@@ -302,12 +298,7 @@ footer h4 {
     border-radius: 5px;
 }
 
-.recent-blog {
-    padding: 0 25px;
-}
-
 .recent-content {
-    width: 80%;
     padding-left: 10px;
 }
 
@@ -318,5 +309,3 @@ footer h4 {
 .recent-content p {
     font-size: 14px;
 }
-
-@media screen and (min-width: 992px) {}
