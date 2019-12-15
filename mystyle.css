@@ -1,9 +1,10 @@
 :root {
     --own-color-yellow: #E2B240;
+    --own-color-midYellow: #AF8010;
+    --own-color-darkYellow: #BC8B1E;
     --own-color-lightBrown: #4B3A32;
     --own-color-midBrown: #7B7B7B;
     --own-color-darkBrown: #241A17;
-    --own-color-darkYellow: #BC8B1E;
     --own-color-gray: #DDDAD3;
 }
 
