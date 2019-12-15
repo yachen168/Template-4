@@ -373,4 +373,9 @@ footer h4 {
     .join {
         padding-left: 35px;
     }
+    .join form {
+        padding-bottom: 20px;
+        background: url(./image/ds_border_bg_d.png) repeat-x bottom;
+        background-size: 5px;
+    }
 }
