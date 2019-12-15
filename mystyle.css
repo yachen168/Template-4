@@ -234,15 +234,15 @@ h4 {
 }
 
 
-/* ------footer------ */
+/* ------.contact------ */
 
-footer {
+.contact {
     background-color: var(--own-color-yellow);
     border-top: 1px solid #fff;
     color: var(--own-color-lightBrown);
 }
 
-.footer-item {
+.contact-item {
     padding-bottom: 120px;
 }
 
@@ -250,10 +250,10 @@ footer {
     padding: 20px 25px;
 }
 
-footer h4 {
+.contact h4 {
     font-size: 18px;
     color: var(--own-color-lightBrown);
-    margin: 20px 0 15px;
+    margin-bottom: 15px;
 }
 
 .visit {
@@ -354,6 +354,7 @@ footer h4 {
 
 .social {
     font-size: 0;
+    padding-top: 25px;
 }
 
 .social a {
@@ -370,16 +371,16 @@ footer h4 {
 
 @media screen and (min-width: 768px) {
     .contact {
-        padding: 20px 0;
+        padding: 35px 0 20px;
     }
-    .footer-item {
+    .contact-item {
         padding-bottom: 0;
     }
-    .footer-item:first-of-type {
+    .contact-item:first-of-type {
         background: url(./image/ds_border_bg_c.png) repeat-y right;
         background-size: 7px;
     }
-    .footer-item:nth-of-type(3) {
+    .contact-item:nth-of-type(3) {
         background: url(./image/ds_border_bg_c.png) repeat-y left;
         background-size: 7px;
     }
