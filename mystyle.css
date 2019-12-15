@@ -330,4 +330,7 @@ footer h4 {
     .visit {
         padding-right: 25px;
     }
+    .recent-blog {
+        padding: 0 25px;
+    }
 }
