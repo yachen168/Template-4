@@ -240,14 +240,13 @@ h4 {
     background-color: var(--own-color-yellow);
     border-top: 1px solid #fff;
     color: var(--own-color-lightBrown);
+    padding: 20px 25px;
+    border-top: 1px solid #fff;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .contact-item {
     padding-bottom: 120px;
-}
-
-.contact {
-    padding: 20px 25px;
 }
 
 .contact h4 {
@@ -275,6 +274,7 @@ h4 {
 }
 
 .visit-card-body a {
+    font-family: 'Roboto', sans-serif;
     text-decoration: underline;
     color: var(--own-color-lightBrown);
 }
@@ -367,6 +367,27 @@ h4 {
     margin-left: 25px;
 }
 
+
+/* -----footer----- */
+
+footer {
+    background-color: var(--own-color-yellow);
+    color: var(--own-color-midYellow);
+}
+
+footer .container {
+    padding: 15px 0 20px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: var(--own-color-midYellow);
+}
+
+.footer-link a+a {
+    margin-left: 10px;
+}
+
 @media screen and (min-width: 768px) {
     .contact {
         padding: 35px 0 20px;
@@ -396,5 +417,12 @@ h4 {
         padding-bottom: 20px;
         background: url(./image/ds_border_bg_d.png) repeat-x bottom;
         background-size: 5px;
+    }
+    footer .container {
+        background: url(./image/ds_border_bg_d.png) repeat-x top;
+        background-size: 5px;
+    }
+    .footer-link {
+        text-align: right;
     }
 }
