@@ -11,14 +11,6 @@
     /* outline: 1px solid; */
 }
 
-.design {
-    width: 100%;
-    position: absolute;
-    height: auto;
-    opacity: 0.5;
-    z-index: -1;
-}
-
 
 /* ------ 全域 ------ */
 
@@ -39,6 +31,10 @@ body {
 p,
 span {
     font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
 }
 
 .center {
@@ -90,7 +86,7 @@ header .collapse {
 .banner-content {
     padding: 0;
     height: 450px;
-    background-repeat: no-repeat;
+    background-repeat: ;
     background-size: cover;
 }
 
@@ -157,7 +153,6 @@ header .collapse {
 
 .blog {
     background-color: #fff;
-    padding: 0 0 10px;
 }
 
 h4 {
@@ -180,15 +175,7 @@ h4 {
 .text h3 {
     margin-bottom: 40px;
     font-size: 30px;
-}
-
-.text h3 {
     word-spacing: 10px;
-}
-
-.blog-article {
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .blog-wrapper {
@@ -196,27 +183,31 @@ h4 {
 }
 
 .blog-wrapper h4 {
+    padding-left: 25px;
+}
+
+.blog-article {
     padding: 0 25px;
 }
 
 .blog-item {
-    width: 100%;
     font-size: 0;
-    padding: 10px 25px 0;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: var(--own-color-gray);
 }
 
 .blog-intro {
     display: inline-block;
-    width: 55%;
-    vertical-align: middle;
-    padding: 20px;
+    width: 50%;
+    padding: 10px 15px 0;
     color: var(--own-color-lightBrown);
-    background-color: var(--own-color-gray);
+    vertical-align: top;
 }
 
 .blog-intro h2 {
     font-size: 18px;
-    margin: 15px 0 40px;
+    padding: 15px 0 20px;
 }
 
 .blog-intro span {
@@ -234,16 +225,5 @@ h4 {
 .img-resort {
     display: inline-block;
     height: 100%;
-    width: 45%;
-    vertical-align: middle;
-}
-
-.img-carving {
-    background: url(./image/carving-small.png) no-repeat;
-    background-size: cover;
-}
-
-.img-resort {
-    background: url(./image/resort-small.png) no-repeat;
-    background-size: cover;
+    width: 50%;
 }
