@@ -112,6 +112,11 @@ nav img {
 
 /* -------------section banner------------- */
 
+.banner {
+    border: 1px solid #fff;
+    border-top: none;
+}
+
 .banner-img,
 .banner-content {
     padding: 0;
@@ -161,19 +166,16 @@ nav img {
 
 .banner-content h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     margin: 20px 0 30px;
     line-height: 1.4;
 }
 
 .banner-content p {
-    display: -webkit-box;
-    margin-bottom: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 9;
-    font-size: 16px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    height: 110px;
+    overflow: scroll;
     text-align: justify;
     line-height: 1.4;
 }
@@ -462,6 +464,9 @@ footer .container {
     }
     #burger:checked+.nav-link-wrapper {
         display: block;
+    }
+    .banner-content h2 {
+        font-size: 45px;
     }
     .contact {
         padding: 35px 0 20px;
