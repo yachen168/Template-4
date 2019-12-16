@@ -30,10 +30,6 @@ span {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
-    width: 100%;
-}
-
 .center {
     justify-content: center;
 }
@@ -69,21 +65,15 @@ header a {
 }
 
 nav img {
-    width: 60px;
-    margin-top: 50px;
+    width: 55px;
     border: 2px solid #666;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
-.nav-wrapper {
-    display: inline-block;
-    width: 100%;
-    line-height: 63px;
-}
-
 .nav-link-wrapper {
     display: none;
+    line-height: 63px;
     width: 100%;
 }
 
@@ -93,7 +83,6 @@ nav img {
 
 .nav-link-wrapper a {
     display: block;
-    padding: 5px 0;
     font-size: 18px;
     font-weight: 500;
     text-align: center;
@@ -107,6 +96,10 @@ nav img {
 
 #burger {
     display: none;
+}
+
+label {
+    margin: 30px 0 0;
 }
 
 
@@ -173,11 +166,11 @@ nav img {
 
 .banner-content p {
     margin-bottom: 0px;
-    padding-bottom: 20px;
-    height: 110px;
+    height: 200px;
     overflow: scroll;
     text-align: justify;
-    line-height: 1.4;
+    line-height: 1.8;
+    color: var(--own-color-darkBrown);
 }
 
 
@@ -241,12 +234,9 @@ h4 {
     word-spacing: 10px;
 }
 
-.blog-wrapper {
-    padding-top: 30px;
-}
-
-.blog-wrapper h4 {
+h4.blog-title {
     padding-left: 25px;
+    padding-top: 30px;
 }
 
 .blog-article {
@@ -270,7 +260,7 @@ h4 {
 
 .blog-intro h2 {
     font-size: 18px;
-    padding: 15px 0 20px;
+    margin: 15px 0 20px;
 }
 
 .blog-intro span {
@@ -339,7 +329,7 @@ h4 {
 
 .recent-item {
     font-size: 0;
-    padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .rect,
@@ -369,10 +359,7 @@ h4 {
 
 .recent-content p {
     font-size: 14px;
-}
-
-.join form {
-    padding-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .join input {
@@ -395,7 +382,7 @@ h4 {
     background: url(./image/buttons.png) no-repeat;
     background-position: -10px -35px;
     border: none;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .join a {
@@ -467,6 +454,9 @@ footer .container {
     .banner-content h2 {
         font-size: 45px;
     }
+    .banner-content p {
+        height: 110px;
+    }
     .info {
         background: url(./image/ds_border_bg_b.png) repeat-y right;
         background-size: 8px;
@@ -496,7 +486,6 @@ footer .container {
         padding-left: 35px;
     }
     .join form {
-        padding-bottom: 20px;
         background: url(./image/ds_border_bg_d.png) repeat-x bottom;
         background-size: 5px;
     }
