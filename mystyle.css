@@ -120,7 +120,36 @@ nav img {
 }
 
 .banner-img {
+    position: relative;
     background-image: url("./image/chair.jpg");
+}
+
+.banner-img a {
+    display: block;
+    height: 35px;
+    text-decoration: none;
+    line-height: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: var(--own-color-midYellow);
+    background: url(./image/buttons.png);
+}
+
+.details {
+    position: absolute;
+    width: 170px;
+    padding: 30px;
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.details>div {
+    line-height: 1.1;
+}
+
+.price {
+    font-size: 28px;
 }
 
 .banner-content {
