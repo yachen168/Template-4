@@ -187,6 +187,10 @@ nav img {
     background-color: var(--own-color-lightBrown);
 }
 
+.gallery-card .bedroom {
+    background-color: var(--own-color-darkBrown);
+}
+
 .gallery-card-body {
     padding: 25px;
     min-height: 130px;
@@ -225,11 +229,6 @@ h4 {
 .title {
     padding: 0 20px;
     margin: 0;
-}
-
-.info {
-    background: url(./image/ds_border_bg_b.png) repeat-y right;
-    background-size: 8px;
 }
 
 .info-text {
@@ -467,6 +466,10 @@ footer .container {
     }
     .banner-content h2 {
         font-size: 45px;
+    }
+    .info {
+        background: url(./image/ds_border_bg_b.png) repeat-y right;
+        background-size: 8px;
     }
     .contact {
         padding: 35px 0 20px;
