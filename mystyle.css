@@ -297,13 +297,23 @@ h4.blog-title {
 }
 
 .contact-item {
-    padding-bottom: 120px;
+    padding-bottom: 40px;
+}
+
+.contact-item:first-of-type {
+    background: url(./image/ds_border_bg_c.png) repeat-x bottom;
+    background-size: 7px;
+}
+
+.contact-item:nth-of-type(3) {
+    background: url(./image/ds_border_bg_c.png) repeat-x top;
+    background-size: 7px;
 }
 
 .contact h4 {
     font-size: 18px;
     color: var(--own-color-lightBrown);
-    margin-bottom: 15px;
+    margin: 30px 0 15px;
 }
 
 .visit {
@@ -419,9 +429,15 @@ h4.blog-title {
 /* -----footer----- */
 
 footer {
+    padding: 0 25px;
     background-color: var(--own-color-yellow);
     color: var(--own-color-midYellow);
     text-align: center;
+}
+
+footer .container {
+    background: url(./image/ds_border_bg_d.png) repeat-x top;
+    background-size: 5px;
 }
 
 footer .container {
@@ -478,6 +494,9 @@ footer .container {
         background: url(./image/ds_border_bg_c.png) repeat-y left;
         background-size: 7px;
     }
+    .contact h4 {
+        margin-top: 0;
+    }
     .visit {
         padding-right: 25px;
     }
@@ -490,10 +509,6 @@ footer .container {
     }
     .join form {
         background: url(./image/ds_border_bg_d.png) repeat-x bottom;
-        background-size: 5px;
-    }
-    footer .container {
-        background: url(./image/ds_border_bg_d.png) repeat-x top;
         background-size: 5px;
     }
     .copyright {
