@@ -123,6 +123,7 @@ main .container {
 .banner-img {
     position: relative;
     background-image: url("./image/chair.jpg");
+    background-position: 50% 50%;
 }
 
 .banner-img a {
