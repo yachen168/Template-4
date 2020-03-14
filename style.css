@@ -181,6 +181,7 @@ main .container {
 /* ------seciton.gallery------ */
 
 .gallery-card {
+    height: 100%;
     background-color: var(--own-color-lightBrown);
 }
 
@@ -190,19 +191,19 @@ main .container {
 
 .gallery-card-body {
     padding: 25px;
-    min-height: 130px;
     background: url(./image/ds_border_bg_a.png) repeat-x top;
     background-size: 5px;
 }
 
 .gallery-title {
     color: var(--own-color-yellow);
-    font-size: 16px;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .gallery-card-body p {
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .gallery-card-body p:last-of-type {
